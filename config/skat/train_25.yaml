@@ -8,26 +8,26 @@ train_feeder_args:
   random_choose: True
   random_move: True
 #  window_size: 256
-  window_size: 1500
+  window_size: 588
   # istrain: True
   # data_path: /share2/SkatingSkeleton2/selected/train_data_25.npy
   # label_path: /share2/SkatingSkeleton2/selected/train_label_25.pkl
   # data_path: /share/skatingDataLgz/train_data_25.npy
   # label_path: /share/skatingDataLgz/train_label_25.pkl
-  data_path: /share/Skating/train_data_25.npy
-  label_path: /share/Skating/train_label_25.pkl
+  data_path: share/Skating/train_data_25.npy
+  label_path: share/Skating/train_label_25.pkl
 #  data_path: /share/Skating_63/skating63_train_data.npy
 #  label_path: /share/Skating_63/skating63_train_label.pkl
 test_feeder_args:
   debug: False
-  window_size: 1500
+  window_size: 588
   # istrain: False
   # data_path: /share2/SkatingSkeleton2/selected/val_data_25.npy
   # label_path: /share2/SkatingSkeleton2/selected/val_label_25.pkl
   # data_path: /share/skatingDataLgz/val_data_25.npy
   # label_path: /share/skatingDataLgz/val_label_25.pkl
-  data_path: /share/Skating/val_data_25.npy
-  label_path: /share/Skating/val_label_25.pkl
+  data_path: share/Skating/val_data_25.npy
+  label_path: share/Skating/val_label_25.pkl
 #  data_path: /share/Skating_63/skating63_val_data.npy
 #  label_path: /share/Skating_63/skating63_val_label.pkl
   # data_path: /share/skeleton_dataset/Skating/train_data_25.npy
@@ -39,7 +39,7 @@ test_feeder_args:
 model: model.MDRGCN.Model
 model_args:
   in_channels: 3
-  num_class: 10
+  num_class: 7
   num_person: 1
   num_point: 25
   # edge_importance_weighting: True
