@@ -53,13 +53,13 @@ model_args:
 # batch_size: 64
 # test_batch_size: 64
 device: [1]
-batch_size: 8
+batch_size: 16
 test_batch_size: 48
 
 #optim
 base_lr: 0.1
 step: [150, 225]
-num_epoch: 300
+num_epoch: 50
 lr_decay_rate: 0.1
 warm_up_epoch: 5
 
