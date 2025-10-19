@@ -109,7 +109,7 @@ def get_parser():
     parser.add_argument(
         '--eval-interval',
         type=int,
-        default=5,
+        default=1,
         help='the interval for evaluating models (#iteration)')
     parser.add_argument(
         '--print-log',
