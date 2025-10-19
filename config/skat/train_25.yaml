@@ -1,5 +1,5 @@
 work_dir: ./work_dir/skating/CW334
-weights: ./work_dir/skating/CW/runs-219-4380.pt
+#weights: ./work_dir/skating/CW/runs-219-4380.pt
 
 # feeder
 feeder: feeders.feeder_diving.Feeder
