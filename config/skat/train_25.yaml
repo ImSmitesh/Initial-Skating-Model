@@ -1,5 +1,5 @@
-work_dir: work_dir/skating/CW334
-#weights: ./work_dir/skating/CW/runs-219-4380.pt
+work_dir: ./work_dir/skating/CW334
+weights: ./work_dir/skating/CW/runs-219-4380.pt
 
 # feeder
 feeder: feeders.feeder_diving.Feeder
@@ -58,8 +58,8 @@ test_batch_size: 48
 
 #optim
 base_lr: 0.1
-step: [150, 225]
-num_epoch: 2
+step: [15, 30]
+num_epoch: 50
 lr_decay_rate: 0.1
 warm_up_epoch: 5
 
